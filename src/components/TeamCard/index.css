@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 48%;
+  background-color: #ffffff33;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding: 8px;
+  flex-shrink: 0;
+  border: 1px solid white;
+  text-decoration: none;
+}
+.li-team-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+.team-name {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.team-logo {
+  width: 50px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 576px) {
+  .team-logo {
+    width: 70px;
+    margin-right: 15px;
+  }
+}
+.link-item {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 576px) {
+  .team-card {
+    height: 150px;
+    padding-left: 25px;
+    width: 49%;
+  }
+  .team-name {
+    font-size: 28px;
+  }
+}

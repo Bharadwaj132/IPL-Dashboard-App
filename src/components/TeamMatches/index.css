@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.team-image {
+  width: 100%;
+}
+@media screen and (min-width: 576px) {
+  .team-image {
+    width: 70vw;
+  }
+}
+.team-matches-background-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+  min-height: 100vh;
+}
+@media screen and (min-width: 576px) {
+  .team-matches-background-card {
+    padding-top: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+.recent-matches-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 576px) {
+  .recent-matches-container {
+    width: 70vw;
+    justify-content: space-between;
+  }
+}
+.latest-matches-heading-style {
+  font-family: bree serif;
+  color: white;
+  width: 100%;
+  text-align: left;
+}
+@media screen and (min-width: 576px) {
+  .latest-matches-heading-style {
+    width: 70vw;
+  }
+}
+
+.csk-bg-style {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+.kkr-bg-style {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+.srh-bg-style {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+.dc-bg-style {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+.rcb-bg-style {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.rr-bg-style {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+.pk-bg-style {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+.mi-bg-style {
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+}

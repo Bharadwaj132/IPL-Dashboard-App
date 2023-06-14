@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.not-found-background-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-family: Bree Serif;
+  color: white;
+  font-size: 20px;
+}
+@media screen and (min-width: 576px) {
+  .not-found-background-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    font-size: 40px;
+  }
+}
